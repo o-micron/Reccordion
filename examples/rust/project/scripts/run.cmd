@@ -1,0 +1,1 @@
+build\bin\%1\ReccordionRust.exe

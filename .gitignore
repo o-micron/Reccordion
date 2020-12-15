@@ -1,0 +1,12 @@
+.vs/
+.vscode/
+.idea/
+build/
+output/
+examples/java/Project/.idea/*
+examples/java/Project/*.iml
+examples/java/Project/scripts/*.log
+examples/java/Project/out/*
+examples/java/Project/src/*.class
+examples/python/src/__pycache__
+examples/rust/project/target/*

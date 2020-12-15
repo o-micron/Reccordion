@@ -1,0 +1,2 @@
+"C:\Program Files\CMake\bin\cmake.EXE" --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE:STRING=C:/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE:STRING=%1 -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -H%cd% -B%cd%/build -G "Visual Studio 16 2019" -T host=%2 -A %2
+"C:\Program Files\CMake\bin\cmake.EXE" --build %cd%/build --config %1 --target ALL_BUILD -- /maxcpucount:14
