@@ -24,6 +24,11 @@ Will provide you a simple library interface to record your desktop.
     3. The output dll files are going to be in `Reccordion/build/<Debug|Release>/*.dll`
     4. The examples will be found in `Reccordion/examples/<c|java|python|rust>`
 
+# Note
+- Examples are not built by default
+- If you want to build the examples set `set(BUILD_EXAMPLES TRUE)` in CMakeLists.txt
+- Make sure you also have Java jdk, Python3 and Rust installed and added to your environment variables 
+
 # How to contribute ?
 - Pull requests are welcome !
 - Try to port Reccordion to other platforms
