@@ -52,8 +52,9 @@ set_target_properties(Reccordion
 )
 # ----------------------------------------------------------------------------------
 
+add_subdirectory(examples/c)
+
 if(BUILD_EXAMPLES)
-    add_subdirectory(examples/c)
     add_subdirectory(examples/java/Project/c)
     add_custom_command(
         TARGET Reccordion

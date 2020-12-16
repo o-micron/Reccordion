@@ -19,10 +19,11 @@ Will provide you a simple library interface to record your desktop.
 # Build from source
     1. Install the build Dependencies
         - cmake
-        - vcpck (put the vcpckg directory in C:/vcpckg/)
+        - vcpckg (put the vcpckg directory in C:/vcpckg/)
     2. run `build.cmd <Debug|Release> <x86|x64>`
     3. The output dll files are going to be in `Reccordion/build/<Debug|Release>/*.dll`
-    4. The examples will be found in `Reccordion/examples/<c|java|python|rust>`
+    4. There is a C example built along the library in `Reccordion/build/<Debug|Release>/ReccordionC.exe`
+    5. In case you build the examples, they will be found in `Reccordion/examples/<c|java|python|rust>`
 
 # Note
 - Examples are not built by default
